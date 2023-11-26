@@ -8,6 +8,11 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+::selection {
+  background-color: blueviolet;
+  color: white;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -17,6 +22,7 @@
 }
 
 body {
+  background-color: white;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
