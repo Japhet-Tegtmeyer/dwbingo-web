@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Home: React.FC = () => {
   return (
     <main>
-      <div className='flex  justify-center bg-gray-900'>
+      <div className='flex  justify-center bg-gray-900 sticky top-0'>
         <h1 className='text-xl font-bold m-5'>DWBingo</h1>
         <h1 className='pl-20 pr-20'></h1>
         <div className='justify-end m-5'>
