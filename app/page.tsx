@@ -5,12 +5,14 @@ import Image from 'next/image';
 const Home: React.FC = () => {
   return (
     <main>
-      <div className='flex m-5 justify-center'>
-        <h1 className='text-xl font-bold'>DWBingo</h1>
+      <div className='flex  justify-center bg-gray-900'>
+        <h1 className='text-xl font-bold m-5'>DWBingo</h1>
         <h1 className='pl-24 pr-24'></h1>
-        <div className='justify-end'>
+        <div className='justify-end m-5'>
         <div className='bg-blue-500 w-24 flex justify-center rounded-full'>
+           <a href="https://apps.apple.com/us/app/dwbingo/id6472356354">
            <h5 className=' text-center justify-center text-sm mt-1 mb-1'>Download</h5>
+           </a>
         </div>
         </div>
       </div>
