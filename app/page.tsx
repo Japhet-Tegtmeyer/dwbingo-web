@@ -7,7 +7,7 @@ const Home: React.FC = () => {
     <main>
       <div className='flex  justify-center bg-gray-900'>
         <h1 className='text-xl font-bold m-5'>DWBingo</h1>
-        <h1 className='pl-24 pr-24'></h1>
+        <h1 className='pl-22 pr-22'></h1>
         <div className='justify-end m-5'>
         <div className='bg-blue-500 w-24 flex justify-center rounded-full'>
            <a href="https://apps.apple.com/us/app/dwbingo/id6472356354">
