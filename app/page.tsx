@@ -19,10 +19,10 @@ const Home: React.FC = () => {
 
       <Image
       className='rounded-[35px] flex justify-center m-auto mb-7 mt-32'
-      src="/dwbingoappicon.png"
+      src="/dwb.png"
       width={150}
       height={150}
-      alt="Picture of the author"
+      alt="App Icon"
     />
         <h1 className='flex justify-center font-bold text-xl'>DWBingo for iOS</h1>
         <h2 className='flex justify-center font-black text-4xl tracking-tight text-center p-5'>A natively built <br /> bingo game. Open <br />  source. Free  <br /> Forever.</h2>
